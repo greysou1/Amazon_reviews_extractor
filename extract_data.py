@@ -42,7 +42,12 @@ def get_search_data(search_query, total):
                 return products
 
 # Search for any product (seperate words using '+'. Ex: 'mobile+phone+cases')
-search_query = 'phones'
+search_query = input('Enter your search query: ')
+if search_query == '':
+    print('Using default search_query = "phones"')
+    search_query = 'phones'
+else:
+    print('Searching for ' + search_query)
 # Total number of product reviews we require
 total = 100
 # Start searching for 'total' number of reviews using the 'search_query'

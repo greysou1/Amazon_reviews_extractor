@@ -5,3 +5,4 @@ stanfordSentimentTreebank/
 test.py
 test2.py
 test3.py
+__pycache__/

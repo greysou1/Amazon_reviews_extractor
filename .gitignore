@@ -1,0 +1,7 @@
+.DS_Store
+.vscode
+stanfordSentimentTreebank/
+*/!.gitignore
+test.py
+test2.py
+test3.py
